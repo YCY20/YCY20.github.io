@@ -1,0 +1,233 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>个人博客</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<!---start-login-script--->
+		<script src="js/login.js"></script>
+		<!---//End-login-script--->
+		<!-----768px-menu----->
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!-----//768px-menu----->
+</head>
+<body>
+		<div class="content">
+	<!------start-768px-menu---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li><a href="index.html">首页</a></li>
+							<li><a href="about.html">关于</a></li>
+							<li class="active"><a href="blog.html">博客</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+			</div>
+		<!------end-768px-menu---->
+			<!---start-header---->
+			<div class="header">
+		   <!---start-wrap---->
+				<div class="wrap">
+				<div class="header-left">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.jpg"/></a>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="top-nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">关于</a></li>
+						<li class="active"><a href="blog.html">博客</a></li>
+					</ul>
+				</div>
+				
+				<div class="sign-ligin-btns">
+					<ul>
+						
+						<li id="loginContainer" class="active" ><a class="login" id="loginButton" href="#"><span>登录</span></a>
+							 <div class="clear"> </div>
+				                <div id="loginBox">                
+				                    <form id="loginForm">
+				                        <fieldset id="body">
+				                            <fieldset>
+				                                <label for="email">电子邮箱</label>
+				                                <input type="text" name="email" id="email" />
+				                            </fieldset>
+				                            <fieldset>
+				                                <label for="password">密码</label>
+				                                <input type="password" name="password" id="password" />
+				                            </fieldset>
+				                            <label class="remeber" for="checkbox"><input type="checkbox" id="checkbox" />记住密码</label>
+				                            <input type="submit" id="login" value="login" />
+				                        </fieldset>
+				                        <span><a href="#">忘记密码?</a></span>
+				                    </form>
+				                </div>
+				            <!-- Login Ends Here -->
+						</li>
+						<li id="signupContainer"><a class="signup" id="signupButton" href="#"><span>注册</span></a>
+							 <div class="clear"> </div>
+				                <div id="signupBox">                
+				                    <form id="signupForm">
+				                        <fieldset id="signupbody">
+				                            <fieldset>
+				                                <label for="email">电子邮箱 <span>*</span></label>
+				                                <input type="text" name="email" id="signupemail" />
+				                            </fieldset>
+				                            <fieldset>
+				                                <label for="password">输入密码 <span>*</span></label>
+				                                <input type="password" name="password" id="signuppassword" />
+				                            </fieldset>
+				                             <fieldset>
+				                                <label for="password">确认密码 <span>*</span></label>
+				                                <input type="password" name="password" id="signuppassword1" />
+				                            </fieldset>
+				                            <input type="submit" id="signup" value="Register Now!" />
+				                        </fieldset>
+				                    </form>
+				                </div>
+				            <!-- Login Ends Here -->
+						</li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			</div>
+			<div class="wrap">
+				<div class="section-title">
+	                   <h3>博客</h3>
+	            </div><!--section-title-->
+			</div>
+		</div>
+<div class="main_bg">
+	 <p class="about-title">欢迎来到这里</p>
+<div class="wrap">
+ <div class="blog">
+ 	<!-- start main_content -->
+	<div class="blog_left">
+				<h3 class="style"><a href="#">职业生涯规划</a></h3>
+				<div class="blog-img"><a href="details.html"><img src="images/blog-img1.jpg" alt=""></a></div>
+			     <div class="blog_grid">
+					<div class="span_1_of_blog">
+					   <ul class="blog-list">
+					   	 <li>时间<br>2020年4月21日</li>
+					   	 <li>标签<br><a href="#">性格</a>&nbsp; | &nbsp; <a href="#">能力</a></li>
+					  
+					   </ul>
+				     </div>
+					 <div class="span_2_of_blog">
+					   <p class="para">我的职业兴趣类型为CRI型：喜欢按计划办事，细心、有条理，习惯接受他人的指挥和领导，自己不谋求领导职务。喜欢关注实际和细节情况，通常较为谨慎和保守愿意使用工具从事操作性工作，缺乏社交能力，通常喜欢独立做事。</p>
+					   <p class="para">在现实生活中，我认为我确实做事比较保守，喜欢按照自己的计划来完成自己的任务，喜欢关注现实，缺乏社交能力，喜欢独立做事，动手能力一般，考虑问题理性，喜欢逻辑分析和推理。</p>
+					 </div>	
+					 <div class="clear"></div>			
+		     	</div>
+		     	<div class="blog_main">
+				<h3 class="style"><a href="#"></a></h3>
+				<div class="blog-img"><a href="details.html"><img src="images/blog-img2.png" alt=""></a></div>
+			     <div class="blog_grid">
+					<div class="span_1_of_blog">
+					   <ul class="blog-list">
+					   	 <li>时间<br>2020年4月23日</li>
+					   	 <li>标签<br><a href="#">兴趣</a>&nbsp; | &nbsp; <a href="#">价值观</a></li>
+					  
+					   </ul>
+				     </div>
+					 <div class="span_2_of_blog">
+					 	<p class="para">我的数理能力，书写能力以及判断能力比较好，说明我有比较强的逻辑推理能力。运动协调能力和社会交际能力比较落后，说明我的身体素质比较弱。我和同学之间的沟通比较少，和老师的交流不多，需要在日常的生活中不断地培养和锻炼，从而提高自身有关这两个方面的能力。</p>
+					   <p class="para">我喜欢思考，学习以及探索新事物，解决新问题。我工作的最大动力是实现自身的价值，从而提高自我的成就感和社会声望。我喜欢研究新兴事物，想要从事与研究相关的职业。</p>
+					   </div>	
+					 <div class="clear"></div>			
+		     	</div>
+		     	</div>
+    </div>
+	<div class="rsidebar span_1_of_3">
+				<div class="search_box">
+					<form>
+					   <input type="text" value="搜索" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+				    </form>
+			 	</div>
+               <div class="social_2">	
+              
+	           
+		 	  </div>
+               <div class="email_box">
+					<form>
+						<div class="email">
+					  		 <input type="text" value="进入你的电子邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your e-mail';}">
+					  	</div>
+					  	 <div class="button">
+						   	 <span><input type="submit" value="订阅"></span>
+						</div>
+				    </form>
+			 	</div>
+			 	<div class="Categories">
+			 		<h4>个人特质</h4>
+				 	<ul class="sidebar">
+			           	<div class="hover"><li><a href="#">性格</a></li></div>
+			            <div class="hover"><li><a href="#">兴趣</a></li></div>
+			            <div class="hover"><li><a href="#">身体素质</a></li></li>
+			          </ul>
+		        </div>
+		        <div class="recentpost">
+			 		<h4>目标</h4>
+				 	<ul class="sidebar_1">
+		           	  <li><a href="#">近期目标</a></li>
+			            <li><a href="#">发展目标</a></li>
+			           	<li><a href="#">理想人生</a></li>
+			          </ul>
+		        </div>
+		        <div class="tags">
+		        	<h4>标签</h4>
+		        	<ul>
+		        		<li><a href="#">兴趣</a></li>
+		        		<li><a href="#">发展</a></li>
+		        		<li><a href="#">目标</a></li>
+		        		<li><a href="#">成就</a></li>
+		        		<li><a href="#">能力</a></li>
+		        		<li><a href="#">价值观</a></li>
+		        		<div class="clear"> </div>
+		        	</ul>
+		        </div>
+		</div>
+	<div class="clear"></div>
+	<!-- end main_content -->
+</div>
+</div>
+</div>
+
+<!-- start footer -->
+<div class="footer">
+   	    <div class="wrap">
+   	    	<div class="footer-left">
+				<div class="copy">
+			       
+		        </div>
+			</div>
+			<div class="social_icons">	
+	          
+		   </div>
+		   <div class="clear"> </div>
+	    </div>
+
+   </div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

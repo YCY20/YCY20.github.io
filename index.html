@@ -1,0 +1,177 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>首页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<!---start-login-script--->
+		<script src="js/login.js"></script>
+		<!---//End-login-script--->
+		<!-----768px-menu----->
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!-----//768px-menu----->
+</head>
+<body>
+	<div class="content">
+	<!------start-768px-menu---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li class="active"><a href="index.html">首页</a></li>
+							<li><a href="about.html">关于</a></li>
+							<li><a href="blog.html">博客</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+			</div>
+		<!------end-768px-menu---->
+			<!---start-header---->
+			<div class="header">
+		   <!---start-wrap---->
+				<div class="wrap">
+				<div class="header-left">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.jpg"/></a>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="top-nav">
+					<ul>
+						<li class="active"><a href="index.html">首页</a></li>
+						<li><a href="about.html">关于</a></li>
+						<li><a href="blog.html">博客</a></li>
+					</ul>
+				</div>
+				
+				<div class="sign-ligin-btns">
+					<ul>
+						
+						<li id="loginContainer"><a class="login" id="loginButton" href="#"><span>登录</span></a>
+							 <div class="clear"> </div>
+				                <div id="loginBox">                
+				                    <form id="loginForm">
+				                        <fieldset id="body">
+				                            <fieldset>
+				                                <label for="email">电子邮箱</label>
+				                                <input type="text" name="email" id="email" />
+				                            </fieldset>
+				                            <fieldset>
+				                                <label for="password">密码</label>
+				                                <input type="password" name="password" id="password" />
+				                            </fieldset>
+				                            <label class="remeber" for="checkbox"><input type="checkbox" id="checkbox" />记住密码</label>
+				                            <input type="submit" id="login" value="login" />
+				                        </fieldset>
+				                        <span><a href="#">忘记密码?</a></span>
+				                    </form>
+				                </div>
+				            <!-- Login Ends Here -->
+						</li>
+						<li id="signupContainer"><a class="signup" id="signupButton" href="#"><span>注册</span></a>
+							 <div class="clear"> </div>
+				                <div id="signupBox">                
+				                    <form id="signupForm">
+				                        <fieldset id="signupbody">
+				                            <fieldset>
+				                                <label for="email">电子邮箱 <span>*</span></label>
+				                                <input type="text" name="email" id="signupemail" />
+				                            </fieldset>
+				                            <fieldset>
+				                                <label for="password">输入密码 <span>*</span></label>
+				                                <input type="password" name="password" id="signuppassword" />
+				                            </fieldset>
+				                             <fieldset>
+				                                <label for="password">确认密码<span>*</span></label>
+				                                <input type="password" name="password" id="signuppassword1" />
+				                            </fieldset>
+				                            <input type="submit" id="signup" value="Register Now!" />
+				                        </fieldset>
+				                    </form>
+				                </div>
+				            <!-- Login Ends Here -->
+						</li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			</div>
+			<div class="main">
+				<div class="wrap">
+				<div class="main_left">
+					<h2>职业规划</h2>
+					<p>“自信人生二百年，会当击水三千里。”其实又何须二百年？人生如白驹过隙，只要我们能够在短暂的生活旅途中掌握好方向，一样可以激越生命的腾飞！可以这样说：人生是一种态度，是一种理想。所以，需要对自己的未来进行规划。</p>		
+					<div class="buttons">
+						<div class="sign_up">
+							<a href="#">注册</a>
+						</div>
+						<div class="learn">
+							<a href="details.html" class="arrow_btn">了解更多</a>
+						</div>
+							<div class="clear"> </div>
+					</div>
+				</div>
+			<div class="main_right">
+						<span> </span>
+			</div>
+			<div class="clear"> </div>
+			<!---//End-header---->
+			</div>
+		</div>
+	</div>
+		<div class="buttom">
+			<div class="wrap">
+				<div class="top-grids">
+					<div class="top-grid">
+						<a href="#"><img src="images/icon1.png"/></a>
+						<h3><a href="#">人生之路要自己走，要过怎样的人生，完全是自己的选择，只有自己才能赋予生命最佳的诠释。</a></h3>
+						<p></p>
+					</div>
+					<div class="top-grid">
+						<a href="#"> <img src="images/icon2.png"/></a>
+						<h3><a href="#">人生是计划的过程，计划的主人是自己，计划做得具体，执行做得确实，胜算必然属于自己。</a></h3>
+						<p></p>
+						</div>
+					<div class="top-grid">
+						<a href="#"><img src="images/icon3.png"/> </a>
+						<h3><a href="#">人的一生，是一连串决定交织而成的过程，其精华在于自己如何选择。生命的最高境界，就是选对舞台，尽情挥洒才华，走出自己的路。</a></h3>
+						<p></p>
+						</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+   	    <div class="wrap">
+   	    	<div class="footer-left">
+				<div class="copy">
+			             </div>
+			</div>
+			<div class="social_icons">	
+	           <ul>
+					
+					<div class="clear"> </div>
+				</ul>
+		   </div>
+		   <div class="clear"> </div>
+	    </div>
+
+   </div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
